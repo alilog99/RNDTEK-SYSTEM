@@ -1,0 +1,26 @@
+{
+  "name": "rndtek-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "RNDTEK-WEBSITE",
+    "ALI-LINKDEDIN",
+    "ALI-PORTFOLIO",
+    "RNDTEK-LINKEDIN"
+  ],
+  "scripts": {
+    "dev": "yarn workspace rndtek start",
+    "build": "yarn workspace rndtek build",
+    "test": "yarn workspace rndtek test",
+    "install:all": "yarn install",
+    "clean": "yarn workspaces run clean",
+    "lint": "yarn workspaces run lint"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "yarn": ">=1.22.0"
+  }
+}
