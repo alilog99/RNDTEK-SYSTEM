@@ -1,0 +1,33 @@
+h1 {
+  font-family: "Poppins-Black", "Poppins";
+}
+h2 {
+  font-family: "Poppins-ExtraBold", "Poppins";
+}
+h3 {
+  font-family: "Poppins-Bold", "Poppins";
+}
+h4 {
+  font-family: "Poppins-SemiBold", "Poppins";
+}
+h5 {
+  font-family: "Poppins-Medium", "Poppins";
+}
+h6 {
+  font-family: "Poppins-Medium", "Poppins";
+}
+div {
+  font-family: "Poppins-Regular", "Poppins";
+}
+small {
+  font-family: "Poppins-Thin", "Poppins";
+}
+p {
+  font-family: "Poppins-light", "Poppins";
+}
+span {
+  font-family: "Poppins-Regular", "Poppins";
+}
+label {
+  font-family: "Poppins-Light", "Poppins";
+}

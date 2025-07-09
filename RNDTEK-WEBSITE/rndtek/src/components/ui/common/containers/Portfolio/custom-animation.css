@@ -1,0 +1,40 @@
+
+
+
+.transitionEnter {
+    transform: scale(0);
+  }
+  .transitionEnterActive {
+    transform: scale(1);
+    transition: transform 1000ms ease;
+  }
+  .transitionExit {
+    transform: scale(1);
+  }
+  .transitionExitActive {
+    transform: scale(0);
+    transition: transform 1000ms ease;
+  }
+
+  /* max-width= 'none';
+  padding= 'initial';
+  background-color: 'transparent';
+   */
+
+.modal {
+  max-width: none;
+  padding: initial;
+  background-color: transparent;
+}
+.styles_modal__gNwvD {
+  max-width: none;
+  position: relative;
+  padding: initial;
+  background:transparent;
+  background-clip: padding-box;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+  margin: auto;
+}
+.styles_closeIcon__1QwbI{
+  color: #fff
+}

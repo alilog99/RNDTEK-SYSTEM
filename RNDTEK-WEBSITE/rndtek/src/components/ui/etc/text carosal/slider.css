@@ -1,0 +1,23 @@
+/* 
+
+@media (min-width: 992px) and (max-width: 1080px)
+{
+.sliderss {
+    display: flex !important;
+    flex-basis: auto;
+}
+}
+@media (min-width: 100px) and (max-width: 500px)
+{
+.sliderss {
+   
+    flex-basis: auto;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.SwipeableTextMobileStepper-customDots-100 {
+    margin-top: -138px;
+    margin-right: 389px;
+    flex-direction: column;
+}
+} */

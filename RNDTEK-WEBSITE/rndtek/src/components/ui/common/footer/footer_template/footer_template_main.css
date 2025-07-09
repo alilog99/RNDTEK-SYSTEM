@@ -1,0 +1,18 @@
+
+.footer_main .menu1,
+.footer_main .menu2{
+    margin: 50% 0 0 17%;
+}
+
+.footer_main .social{
+    margin: 23% 0 0 17%;
+}
+
+
+@media only screen and (max-width: 580px) {
+    .footer_main .menu1,
+    .footer_main .menu2,
+    .footer_main .social{
+        margin: 0;
+    }
+}

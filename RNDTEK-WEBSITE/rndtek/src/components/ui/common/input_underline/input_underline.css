@@ -1,0 +1,196 @@
+  /*.input-wrapper {
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    position: relative;
+    width: 100%;
+  }
+  .input:focus {
+    outline: none;    
+  }
+  
+  input::-webkit-input-placeholder {
+    color: #fff;
+  }
+  
+  input:focus::-webkit-input-placeholder {
+    color: dodgerblue;
+  }
+  
+  .input:focus+.underline {
+    transform: scale(1);
+  }
+  
+  .underline {
+    background-color: dodgerblue;
+    display: inline-block;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    position: absolute;
+    right: 0;
+  }
+*/
+
+  /************************************************************************/
+
+
+
+  .input-underline-wrapper {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  /**
+  * Add a transition to the label and input.
+  * I'm not even sure that touch-action: manipulation works on
+  * inputs, but hey, it's new and cool and could remove the 
+  * pesky delay.
+  */
+  .label-i-underline, .input-underline {
+    transition: all 0.2s;
+    touch-action: manipulation;
+    color: #fff;
+    font-size: 14px;
+    background-color: transparent;
+  }
+
+
+  .theme-dark .label-i-underline,
+  .theme-dark .input-underline{
+    color: #333333;
+  }
+  
+  .input-underline:focus {
+    outline: none;    
+  }
+  
+  .input-underline::-webkit-input-placeholder {
+    color: transparent;
+  }
+  
+  .input-underline:focus::-webkit-input-placeholder {
+    color: #ccc;
+  }
+  
+  .theme-dark .input-underline:focus::-webkit-input-placeholder {
+    color: #333333;
+  }
+
+  .input-underline:focus+.underline {
+    transform: scale(1);
+  }
+
+  .input-underline {
+    border: 0;
+    border-bottom: 1px solid #fff;
+    font-family: inherit;
+    -webkit-appearance: none;
+    border-radius: 0;
+    padding: 0 10px 10px 10px;
+    cursor: text;
+    position: relative;
+  }
+  
+  .input-underline-wrapper.input-search::after{
+    content: url('./search.png');
+    position: absolute;
+    right: 15px;
+    bottom: 22px;
+  }
+
+  .input-underline-wrapper.input-search .input-underline{
+    padding-right: 25px;
+  }
+
+  .theme-dark .input-underline{
+    border-bottom: 1px solid #333333;
+  }
+
+  .input-underline:focus {
+    outline: 0;
+    border-bottom: 1px solid #fff;
+  }
+
+  .input-underline-wrapper.input-date:after {
+    color: transparent;
+    background: none;
+    display: block;
+    font-size: 22px;
+
+    content: url('./calendar.png');
+    /* This is the calendar icon in FontAwesome */
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    color: #444444;
+  }
+
+
+  .input-underline[type="date"]::-webkit-calendar-picker-indicator {
+    color: transparent;
+    background: none;
+    z-index: 1;
+  }
+
+  .theme-dark .input-underline:focus{
+    border-bottom: 1px solid #333333;
+  }
+  
+  .label-i-underline {
+    letter-spacing: 0.01em;
+  }
+  /**
+  * Translate down and scale the label up to cover the placeholder,
+  * when following an input (with placeholder-shown support).
+  * Also make sure the label is only on one row, at max 2/3rds of the
+  * field—to make sure it scales properly and doesn't wrap.
+  */
+  .input-underline:placeholder-shown + .label-i-underline {
+    cursor: text;
+    max-width: 66.66%;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform-origin: left bottom;
+    transform: translate(0, 2.125rem) scale(1.5);
+  }
+  /**
+  * By default, the placeholder should be transparent. Also, it should 
+  * inherit the transition.
+  */
+  .input-underline:-webkit-input-placeholder {
+    opacity: 0;
+    transition: inherit;
+  }
+  /**
+  * Show the placeholder when the input is focused.
+  */
+  .input-underline:focus::-webkit-input-placeholder {
+    opacity: 1;
+  }
+  /**
+  * When the element is focused, remove the label transform.
+  * Also, do this when the placeholder is _not_ shown, i.e. when 
+  * there's something in the input at all.
+  */
+  .input-underline:not(:placeholder-shown) + .label-i-underline,
+  .input-underline:focus + .label-i-underline {
+    transform: translate(0, 0) scale(1);
+    font-size: 12px;
+    cursor: pointer;
+  }

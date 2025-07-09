@@ -1,0 +1,39 @@
+.c-input-group{
+    position: relative;
+}
+
+.c-input-group .c-form-control{
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px 12px;
+    width: 80%;
+    display: inline;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+    background-color: transparent;
+    color: white;
+}
+
+.c-input-group .c-form-control:focus{
+    outline: none;
+    box-shadow: 1px 1px 4px rgba(255,255,255,.1);
+}
+
+.c-input-group .c-form-control::placeholder{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.c-input-group .c-input-group-btn button{
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding:10px 0;
+    width: 20%;
+    vertical-align: baseline;
+}
+
+.c-input-group .c-input-group-btn{
+    display: inline;
+}

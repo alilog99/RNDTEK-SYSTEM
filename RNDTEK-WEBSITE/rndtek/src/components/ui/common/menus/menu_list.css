@@ -1,0 +1,18 @@
+.menu-white{
+    padding: 0;
+    list-style: none;
+    color:white;
+}
+
+.menu-white .menu-item{
+    margin-bottom: 7px;
+}
+
+.menu-white .menu-item .menu-item-link{
+    color: white;
+    font-size: 16px
+}
+
+.menu-white .menu-item .menu-item-link:hover div{
+    color: white !important;
+}

@@ -1,0 +1,16 @@
+/* @media (min-width: 992px) and (max-width: 1080px)
+{
+.hometop {
+    display: flex !important;
+    flex-basis: auto;
+}
+}
+@media (min-width: 100px) and (max-width: 500px)
+{
+.hometop {
+   
+    flex-basis: auto;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+} */

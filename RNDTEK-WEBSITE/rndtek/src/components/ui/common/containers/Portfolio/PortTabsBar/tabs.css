@@ -1,0 +1,13 @@
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #007bff;
+    font-family: "../../../../../../assets/fonts/Poppins-Medium.ttf"
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color :#007bff;
+    font-family: "../../../../../../assets/fonts/Poppins-Medium.ttf"
+
+}
+

@@ -1,0 +1,22 @@
+.newsletter-box {
+  background: transparent;
+  color: white;
+  width: 200px;
+}
+.newsletter-box:focus {
+  background: transparent;
+  color: white;
+}
+.newsletter-box::-webkit-input-placeholder {
+  color: white;
+  opacity: 0.5;
+}
+.newsletter-btn {
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+.newsletter-btn:hover {
+  background-color: white;
+  color: black;
+}

@@ -1,0 +1,103 @@
+/* .cover-size {
+  background-image: url("../../../../../assets/imgs/cover.png");
+  height: 300px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+} */
+
+.background1-size {
+  background-image: url("../../../../../assets/imgs/rectangle.png");
+  min-height: 600px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.background2-size {
+  background-image: url("../../../../../assets/imgs/backgroud.png");
+  min-height: 655px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+.address-logo {
+ 
+  height: 50px;
+  
+  margin-top: 50px;
+  
+          position: relative;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          z-index: 1;
+}
+.phone-logo {
+  height: 50px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  margin-top: 50px;
+}
+.email-logo {
+  height: 50px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  margin-top: 50px;
+
+}
+.font {
+  font-size: 15px;
+  color: white;
+margin-top: 5px;
+  text-align: center;
+}
+.font2 {
+  font-size: 11px;
+  color: white;
+
+  text-align: center;
+}
+.contact-box {
+  background-color: #378fe7;
+  height: 420px;
+  width: 100%;
+  border-radius: 5px;
+  margin: 40px 0;
+  opacity: 0.9;
+  padding-top: 20px;
+}
+.contact-image {
+  background-image: url("../../../../../assets/imgs/img1.png");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 75px;
+  margin-left: -60px;
+  border-radius: 10px;
+  background-size: cover;
+  position: relative;
+}
+.contact-woman {
+ 
+
+  
+  margin-top: 51px;
+
+  margin-left: -108px;
+}
+.heading {
+  font-size: 32px;
+  color: white;
+  margin-left: 10px;
+}

@@ -1,0 +1,62 @@
+.carousel_wrapperr > div{
+    height: 100%;
+    position: relative;
+} 
+
+.carousel_wrapperr .carousel.carousel-slider {
+    height: 100%;
+    position: relative;
+  
+}
+.carousel_wrapperr .carousel .slider-wrapper {
+  
+    height: 100%;
+    position: relative;
+}
+.carousel_wrapperr .carousel .slider {
+    height: 100%;
+}
+
+
+.carousel_wrapperr   .slide.selected{
+    height: 100%;
+    position: relative;
+}
+.carousel .control-dots .dot {
+    transition: opacity .25s ease-in;
+    opacity: .3;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.9);
+    background: #808082;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 8px;
+    margin: 2px;
+}
+
+
+.carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover {
+    background: #0071bc;
+
+}
+
+.carousel .control-dots {
+    position: absolute;
+    bottom: 0;
+    margin: 10px 0;
+    text-align: center;
+    width: 6%;
+    display: grid;
+    margin: 240px 51px;
+}
+.lebal{
+    margin-top:200px;
+    text-align:left;
+}
+@media screen and (max-width: 588px) {
+    .lebal {
+        margin-top: 350px;;
+    }
+  }

@@ -1,0 +1,17 @@
+.card{
+    width: 95%;
+    display: inline-block;
+    position: relative;
+    min-height: 140px;
+    border-radius: 10px;
+    margin: 15px;
+    margin-top: -10px;
+    text-align: center;
+    background-color: #0168ac;
+    
+}
+.card:hover{
+    background-color: 'white';
+    
+    
+}

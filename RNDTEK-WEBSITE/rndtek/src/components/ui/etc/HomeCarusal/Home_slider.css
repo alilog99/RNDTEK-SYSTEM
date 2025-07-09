@@ -1,0 +1,24 @@
+.carousel_wrapperr > div{
+    height: 100%;
+    position: relative;
+} 
+
+.carousel_wrapperr .carousel.carousel-slider {
+    height: 100%;
+    position: relative;
+  
+}
+.carousel_wrapperr .carousel .slider-wrapper {
+  
+    height: 100%;
+    position: relative;
+}
+.carousel_wrapperr .carousel .slider {
+    height: 100%;
+}
+
+
+.carousel_wrapperr   .slide.selected{
+    height: 100%;
+    position: relative;
+}
